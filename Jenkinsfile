@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git 'https://github.com/your-username/freestyle-demo.git'
+                git 'https://github.com/rajaniekunde/Freestyle-job-demo.git'
             }
         }
         stage('Build') {
